@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='wav2image',
-    version='1.0.0',
+    version='1.0.1',
     description='Waveform generator that can generate any image type',
     url='https://github.com/niland/wav2image',
     author='Niland',
@@ -16,6 +16,7 @@ setup(
     ],
     keywords='waveform svg png wav',
     install_requires=['matplotlib', 'numpy', 'scipy'],
+    packages=['wav2image'],
     entry_points={
         'console_scripts': [
             'wav2image=wav2image:main',
