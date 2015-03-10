@@ -10,13 +10,13 @@ A waveform generator that can generate any image type (png, svg, etc.).
     + scipy
 
 ## Installation
-### Use pip (Recommended)
+### Using pip (Recommended)
 
     pip install wav2image
 
 This command will install wav2image and its python dependencies (not the system dependencies).
 
-### Use git
+### Using git
 
     git clone https://github.com/niland/wav2image
 
