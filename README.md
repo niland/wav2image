@@ -9,7 +9,11 @@ A waveform generator that can generate any image type (png, svg, etc.).
     + numpy
     + scipy
 
+On ubuntu you can install those dependencies using `apt-get install python-numpy python-scipy python-matplotlib`
+
 ## Installation
+
+On ubuntu 12.04 you have to install 
 ### Using pip (Recommended)
 
     pip install wav2image
