@@ -6,3 +6,4 @@
 ### Python ###
 *.pyc
 /dist
+/wav2image.egg-info

@@ -12,8 +12,7 @@ setup(
     classifiers=[
         'Development Status :: 4 - Beta',
         'Topic :: Multimedia :: Sound/Audio :: Analysis',
-        'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 2.7 :: Only'
+        'License :: OSI Approved :: MIT License'
     ],
     keywords='waveform svg png wav',
     install_requires=['matplotlib', 'numpy', 'scipy'],
