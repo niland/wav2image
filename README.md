@@ -20,7 +20,7 @@ This command will install wav2image and its python dependencies (not the system 
 
     git clone https://github.com/niland/wav2image
 
-Use `python wav2image`.
+Use `python wav2image/__init__.py`.
 
 ## Usage
 
