@@ -6,11 +6,9 @@ import tempfile
 
 filelist = {
     'test_mono_0sec.wav',
-    'test_mono_2min.wav',
     'test_mono_3sec.wav',
     'test_mono_10sec.wav',
     'test_stereo_0sec.wav',
-    'test_stereo_2min.wav',
     'test_stereo_3sec.wav'
 }
 
