@@ -53,12 +53,12 @@ def compute_waveform(inputfile, outputfile, color):
             waveform[2*k] = max(signal[ k*frame_size : (k+1)*frame_size-1])
             waveform[2*k+1] = min(signal[ k*frame_size : (k+1)*frame_size-1])
 
-            plt.figure(1)
-            plt.plot(waveform, color='#%s' % color)
+        plt.figure(1)
+        plt.plot(waveform, color='#%s' % color)
 
-            plt.axis('off')
-            plt.gca().set_position([0, 0, 1, 1])
-            plt.savefig(outputfile, transparent=True)
+        plt.axis('off')
+        plt.gca().set_position([0, 0, 1, 1])
+        plt.savefig(outputfile, transparent=True)
 
 def main():
     args = parse_arguments()
